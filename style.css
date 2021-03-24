@@ -46,6 +46,7 @@ main {
 .intro-chunk {
   max-width: 400px;
   padding: 0 24px;
+  font-size: 1.1rem;
 }
 
 .card {
@@ -54,16 +55,16 @@ main {
   border-bottom: var(--border-width) var(--gray-40) solid;
 }
 
-h1.title {
+.title {
   font-size: 1.5rem;
   padding-bottom: 24px;
 }
 
-h2.indented-heading {
+.indented-heading {
+  width: fit-content;
   font-size: 1.2rem;
   background: var(--secondary-color-50);
   border-bottom: var(--border-width) var(--secondary-color-40) solid;
   padding: 16px 32px;
   margin: 0 0 0 -32px;
-  max-width: max-content;
 }
